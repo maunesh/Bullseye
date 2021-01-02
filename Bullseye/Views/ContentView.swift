@@ -21,12 +21,15 @@ struct ContentView: View {
                     .padding(.bottom, alertIsVisible ? 0 : 100 )
                 if alertIsVisible {
                     PointsView(alertIsVisible: $alertIsVisible, sliderValue: $sliderValue, game: $game)
+                        .transition(.scale)
                 } else {
                     ButtonView(alertIsVisible: $alertIsVisible, sliderValue: $sliderValue, game: $game)
+                        .transition(.scale)
                 }
             }
             if !alertIsVisible {
                 SliderView(sliderValue: $sliderValue)
+                    .transition(.scale)
             }
         }
     }
@@ -65,8 +68,9 @@ struct ButtonView: View {
     
     var body: some View {
         Button(action: {
-            print("Hit Me! buttom pressed.")
-            alertIsVisible = true
+            withAnimation() {
+                alertIsVisible = true
+            }
         }) {
             Text("Hit Me".uppercased())
                 .bold()
