@@ -18,6 +18,7 @@
 		7F69AE92259D74E400F78E0F /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AE91259D74E400F78E0F /* RoundedViews.swift */; };
 		7F69AE96259DE0D200F78E0F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AE95259DE0D200F78E0F /* BackgroundView.swift */; };
 		7F69AE9A25A006E500F78E0F /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AE9925A006E400F78E0F /* PointsView.swift */; };
+		7F69AEA425A18CE400F78E0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AEA325A18CE400F78E0F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		7F69AE91259D74E400F78E0F /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 		7F69AE95259DE0D200F78E0F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		7F69AE9925A006E400F78E0F /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		7F69AEA325A18CE400F78E0F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7F69AE58259C56A800F78E0F /* Game.swift */,
+				7F69AEA325A18CE400F78E0F /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				7F69AE9A25A006E500F78E0F /* PointsView.swift in Sources */,
 				7F69AE96259DE0D200F78E0F /* BackgroundView.swift in Sources */,
 				7F69AE8E259D451000F78E0F /* Shapes.swift in Sources */,
+				7F69AEA425A18CE400F78E0F /* Constants.swift in Sources */,
 				7F69AE59259C56A800F78E0F /* Game.swift in Sources */,
 				7F69AE44259A989100F78E0F /* BullseyeApp.swift in Sources */,
 			);
